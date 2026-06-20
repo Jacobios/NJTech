@@ -458,10 +458,13 @@ a {
   inset: 0;
   background: rgba(0,0,0,0.5);
   z-index: 200;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   animation: fadeIn 0.2s;
+}
+.modal-overlay.show {
+  display: flex;
 }
 .modal-content {
   background: #fff;
@@ -525,6 +528,16 @@ a {
 }
 .timeline-item h4 { font-size: 0.9rem; }
 .timeline-item p { font-size: 0.8rem; color: var(--text-secondary); }
+
+/* Toast message */
+.toast-msg {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  display: none;
+}
+.toast-msg.show {
+  display: block;
+}
 
 /* ====================
    Tablet: ≥ 640px
