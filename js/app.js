@@ -31,7 +31,7 @@
   var qqClose = document.getElementById('qq-modal-close');
   var qqCopyBtn = document.getElementById('qq-copy-btn');
   var qqToast = document.getElementById('qq-toast');
-  var QQ_NUMBER = '123456789';
+  var QQ_NUMBER = '811390803';
 
   // Show modal
   if (qqFloat) {
